@@ -9,6 +9,7 @@ public class TextBox : MonoBehaviour
     private Text txtObj;
     private string text;
     public float scrollSpeed = 10f;
+    public float scrollMultiplier = 5f; // When the player clicks A or on the textbox
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class TextBox : MonoBehaviour
     }
 
     public void OnClick() {
-       scrollSpeed *= 3;
+       scrollSpeed *= scrollMultiplier;
     }
 
     IEnumerator InsertLetters() {
