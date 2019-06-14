@@ -17,8 +17,8 @@ namespace Character
 
         private State m_State;
 
-        private const float MovementBlockSize = 8.0f;
-        private const float MovingSpeedPPS = 64.0f;
+        private const float MovementBlockSize = 0.32f;
+        private const float MovingSpeedPPS = 1.0f;
         private const float TimeToMoveOneBlock = MovementBlockSize / MovingSpeedPPS;
 
         public GameObject m_SplashPrefab;
