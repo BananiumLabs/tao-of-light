@@ -17,7 +17,7 @@ public class FadeEffect : MonoBehaviour
     }
 
     public void FadeIn() {
-        StartCoroutine(FadeToFullAlpha(0.25f, gameObject.GetComponent<SpriteRenderer>()))
+        StartCoroutine(FadeToFullAlpha(0.25f, gameObject.GetComponent<SpriteRenderer>()));
     }
 
 	private IEnumerator FadeToFullAlpha(float t, SpriteRenderer i)

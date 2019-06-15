@@ -6,7 +6,7 @@ using UnityEngine.Assertions;
 
 namespace Character
 {
-    public class CharacterController : MonoBehaviour
+    public class Copied_CharacterController : MonoBehaviour
     {
         private enum State
         {
