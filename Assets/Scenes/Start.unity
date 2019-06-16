@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99982862}
   - component: {fileID: 99982863}
+  - component: {fileID: 99982864}
   m_Layer: 5
   m_Name: Fade
   m_TagString: Untagged
@@ -194,7 +195,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 095a9a25ea1712b5e9d561c80407aec8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -204,6 +205,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &99982864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99982861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9d5dd1d6a494fce9bca6df4a5e02b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingOpacity: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,15 +5,27 @@ using UnityEngine;
 /// Attach to sprite that you want to fade in and out
 public class FadeEffect : MonoBehaviour {
 
+	public float startingOpacity = 1f;
+
+	void Start() {
+		SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+		sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, startingOpacity);
+	}
+
     public void FadeIn() {
-        StartCoroutine(FadeToFullAlpha(0.25f, gameObject.GetComponent<SpriteRenderer>()));
+        StartCoroutine(FadeToFullAlpha(0.25f, GetComponent<SpriteRenderer>()));
     }
     public void FadeOut() {
-        StartCoroutine(FadeToFullAlpha(0.25f, gameObject.GetComponent<SpriteRenderer>()));
+        StartCoroutine(FadeToZeroAlpha(0.25f, GetComponent<SpriteRenderer>()));
     }
-	public IEnumerator FadeInOut() {
+
+	public void FadeInOut() {
+		StartCoroutine(FadeInOutEnumerator());
+	}
+
+	public IEnumerator FadeInOutEnumerator() {
 		FadeIn();
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(1f);
 		FadeOut();
 	}
 
