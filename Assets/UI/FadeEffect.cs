@@ -2,23 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FadeEffect : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+/// Attach to sprite that you want to fade in and out
+public class FadeEffect : MonoBehaviour {
 
     public void FadeIn() {
         StartCoroutine(FadeToFullAlpha(0.25f, gameObject.GetComponent<SpriteRenderer>()));
     }
+    public void FadeOut() {
+        StartCoroutine(FadeToFullAlpha(0.25f, gameObject.GetComponent<SpriteRenderer>()));
+    }
+	public IEnumerator FadeInOut() {
+		FadeIn();
+		yield return new WaitForSeconds(0.5f);
+		FadeOut();
+	}
 
 	private IEnumerator FadeToFullAlpha(float t, SpriteRenderer i)
 	{
