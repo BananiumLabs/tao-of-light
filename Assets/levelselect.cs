@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class levelselect : MonoBehaviour {
 
-    private int level = 0;
-    private int m_LevelSelect = 0;
+    public int level = 0;
     // EditorBuildSettingsScene[] scenes;
 
     public void LoadScene (int level) {
@@ -28,5 +27,13 @@ public class levelselect : MonoBehaviour {
             LoadScene (2);
 
         }
+    }
+
+    void OnTriggerEnter2D (Collider2D col) {
+        print (gameObject.name + " in contact with " + col.GetComponent<Collider2D>().name);
+    } //END FUNCTION ONCOLLISIONENTER
+
+    void OnCollisionExit2D (Collision2D col) {
+        print (gameObject.name + " No longer in contact with " + col.collider.name);
     }
 }
