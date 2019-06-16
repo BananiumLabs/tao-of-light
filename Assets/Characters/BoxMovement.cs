@@ -6,6 +6,7 @@ using UnityEngine;
 public class BoxMovement : MonoBehaviour {
 
     int direction;
+    bool colliding = false;
     const float TILE_SIZE = 0.32f;
     // LATEST recorded impact direction.
 
@@ -19,7 +20,7 @@ public class BoxMovement : MonoBehaviour {
 
 	void Update()
 	{
-		if (player.m_State == CharacterController2D.State.WaitingForInput)
+		if (player.m_State == CharacterController2D.State.WaitingForInput && colliding)
 		{
 			Vector2 dir = player.m_Facing;
 
@@ -41,16 +42,11 @@ public class BoxMovement : MonoBehaviour {
 			}
 
 			rb2D.velocity = Vector2.zero;
+            colliding = false;
 		}
 	}
 
-    void OnCollisionEnter2D(Collider col) {
-
+    void OnCollisionEnter2D(Collision2D col) {
+        colliding = true;
     }
-
-
-	void OnCollisionExit2D(Collider col)
-	{
-
-	}
 }
