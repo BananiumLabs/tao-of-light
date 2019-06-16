@@ -19,7 +19,7 @@ public class CharacterController2D : MonoBehaviour
     public State m_State;
 
     //Character starts of facing downward
-    private Vector2 m_Facing = Vector2.down;
+    public Vector2 m_Facing = Vector2.down;
 
     private Animator m_Animator;
 
