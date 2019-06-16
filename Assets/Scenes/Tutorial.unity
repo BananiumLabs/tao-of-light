@@ -964,7 +964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919962820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.964, y: -2.1, z: 0}
+  m_LocalPosition: {x: 5.281, y: -1.452, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1401,6 +1401,9 @@ MonoBehaviour:
   character: {fileID: 295008107}
   sprite: {fileID: 2084950659}
   initialYinPosition: {x: 3.6, y: -2.2}
+  controllers:
+  - {fileID: 9100000, guid: 2828b25199a14a27283d4a9c127aa346, type: 2}
+  - {fileID: 9100000, guid: 63be1058a7c60fa43b128a4769eeb17e, type: 2}
 --- !u!4 &1919450523
 Transform:
   m_ObjectHideFlags: 0
