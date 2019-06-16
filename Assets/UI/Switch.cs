@@ -26,7 +26,7 @@ public class Switch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.B) && !isSwapping) {
+        if(Input.GetKeyDown(KeyCode.B) && !isSwapping && (!GameObject.Find("Cutscene Trigger") || GameObject.Find("Cutscene Trigger").GetComponent<cutscene>().cutsceneCompleted)) {
             StartCoroutine(Swap());
         }
     }

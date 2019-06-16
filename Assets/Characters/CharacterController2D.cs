@@ -85,8 +85,11 @@ public class CharacterController2D : MonoBehaviour
     private void InputUpdate()
     {
         Vector2 dv = Vector2.zero;
-        dv.x = Input.GetAxisRaw("Horizontal");
-        dv.y = Input.GetAxisRaw("Vertical");
+
+        if((!GameObject.Find("Cutscene Trigger") || (GameObject.Find("Cutscene Trigger").GetComponent<cutscene>().cutsceneCompleted || !GameObject.Find("Cutscene Trigger").GetComponent<cutscene>().cutsceneInitiated))) {
+            dv.x = Input.GetAxisRaw("Horizontal");
+            dv.y = Input.GetAxisRaw("Vertical");
+        }
 
         // Favor horizontal movement over vertical
         if (dv.x != 0)

@@ -10,6 +10,7 @@ public class TextBox : MonoBehaviour
     private string text;
     public float scrollSpeed = 10f;
     public float scrollMultiplier = 5f; // When the player clicks A or on the textbox
+    public bool completed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +25,9 @@ public class TextBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A)) {
-            OnClick();
-        }
+        // if(Input.GetKeyDown(KeyCode.A)) {
+        //     OnClick();
+        // }
     }
 
     public void OnClick() {
@@ -38,5 +39,6 @@ public class TextBox : MonoBehaviour
             txtObj.text += text.Substring(i, 1);
             yield return new WaitForSeconds(1/scrollSpeed);
         }
+        completed = true;
     }
 }
