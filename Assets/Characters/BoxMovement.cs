@@ -82,14 +82,14 @@ public class BoxMovement : MonoBehaviour {
 			var pos = gameObject.transform.position;
 			var hit = Physics2D.Raycast (pos, player.m_Facing, MovementBlockSize, 1 << LayerMask.NameToLayer ("Default"));
 
-			// if (hit) {
-			// 	m_State = State.WaitingForInput;
-			// 	m_MoveTimer = 0.0f;
-			// } else {
+			if (hit) {
+				m_State = State.WaitingForInput;
+				m_MoveTimer = 0.0f;
+			} else {
 			m_State = State.Moving;
 			m_MovingTo = m_MovingFrom + player.m_Facing * MovementBlockSize;
 			// m_MovingTo.x = RoundToGrid (m_MovingTo.x);
-			// }
+			}
 		} else {
 			// No input means we aren't even trying to move
 			m_MoveTimer = 0.0f;
