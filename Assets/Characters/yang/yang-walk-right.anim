@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walk-down
+  m_Name: yang-walk-right
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -5867371263317494731, guid: feed71fba17dd878790437b3f0fe46b0,
+      value: {fileID: -3370248098749883984, guid: feed71fba17dd878790437b3f0fe46b0,
         type: 3}
     - time: 0.125
-      value: {fileID: -736574671076251963, guid: feed71fba17dd878790437b3f0fe46b0,
+      value: {fileID: -7241664796823593827, guid: feed71fba17dd878790437b3f0fe46b0,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,8 +44,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -5867371263317494731, guid: feed71fba17dd878790437b3f0fe46b0, type: 3}
-    - {fileID: -736574671076251963, guid: feed71fba17dd878790437b3f0fe46b0, type: 3}
+    - {fileID: -3370248098749883984, guid: feed71fba17dd878790437b3f0fe46b0, type: 3}
+    - {fileID: -7241664796823593827, guid: feed71fba17dd878790437b3f0fe46b0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

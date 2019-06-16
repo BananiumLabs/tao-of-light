@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: feed71fba17dd878790437b3f0fe46b0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3967378156132177124
+    second: spritesheet-yang_0
+  - first:
+      213: -736574671076251963
+    second: spritesheet-yang_1
+  - first:
+      213: -5867371263317494731
+    second: spritesheet-yang_2
+  - first:
+      213: 9163090511058977928
+    second: spritesheet-yang_3
+  - first:
+      213: 8554167221159558558
+    second: spritesheet-yang_4
+  - first:
+      213: -1049203347673675539
+    second: spritesheet-yang_5
+  - first:
+      213: -672035402179355965
+    second: spritesheet-yang_6
+  - first:
+      213: 3396782991437725189
+    second: spritesheet-yang_7
+  - first:
+      213: 7975973101534253259
+    second: spritesheet-yang_8
+  - first:
+      213: -5146200300764200203
+    second: spritesheet-yang_9
+  - first:
+      213: -3370248098749883984
+    second: spritesheet-yang_10
+  - first:
+      213: -7241664796823593827
+    second: spritesheet-yang_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +76,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,9 +105,272 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-yang_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 104
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01512d9d63487c858e8f14319a016dd
+      internalID: -3967378156132177124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 104
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0098f5a4d08c27400a307dcc9eda7391
+      internalID: -736574671076251963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640369fa917b63d3c9f7e8941ebc27de
+      internalID: -5867371263317494731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902c873f00d2e7b7cadc431482b226a3
+      internalID: 9163090511058977928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 70
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eecf3f0d24f3a588941912681849094
+      internalID: 8554167221159558558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 69
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ff0b8bf867822268f1b38819fc17b8
+      internalID: -1049203347673675539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8682704b96caaf5dfba5965848001608
+      internalID: -672035402179355965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c38ad00b0413d0b8d5042c7a00daa4
+      internalID: 3396782991437725189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 38
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6093da603adce118e8274714f7aeef36
+      internalID: 7975973101534253259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a84fc07ed20fb7592c0f9960e69cd0
+      internalID: -5146200300764200203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24935c5a807a0af53842d50409bc2a60
+      internalID: -3370248098749883984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-yang_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2de12a848383e0d7aed1397a946fd96
+      internalID: -7241664796823593827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
