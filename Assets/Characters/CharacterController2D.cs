@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterController2D : MonoBehaviour
-{   
+{
 
-    private enum State
+    public enum State
         {
             Moving,
             Pushing,
@@ -16,7 +16,7 @@ public class CharacterController2D : MonoBehaviour
     private const float MovingSpeedPPS = 1.0f;
     private const float TimeToMoveOneBlock = MovementBlockSize / MovingSpeedPPS;
 
-    private State m_State;
+    public State m_State;
 
     //Character starts of facing downward
     private Vector2 m_Facing = Vector2.down;
