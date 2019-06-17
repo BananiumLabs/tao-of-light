@@ -43,6 +43,7 @@ public class Switch : MonoBehaviour
             black.FadeOut();
             yield return new WaitForSeconds(1);
             sprite.SetActive(true);
+			sprite.transform.localScale = new Vector2(3, 3);
 
         }
         else {
@@ -55,6 +56,7 @@ public class Switch : MonoBehaviour
 			white.FadeOut();
 			yield return new WaitForSeconds(1);
 			sprite.SetActive(true);
+            sprite.transform.localScale = new Vector2(0.8f, 0.8f);
         }
 		isSwapping = false;
         isYang = !isYang;
