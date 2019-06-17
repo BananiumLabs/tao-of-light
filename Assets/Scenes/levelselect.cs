@@ -30,7 +30,12 @@ public class levelselect : MonoBehaviour {
     }
 
     void OnTriggerEnter2D (Collider2D col) {
-        print (gameObject.name + " in contact with " + col.GetComponent<Collider2D>().name);
+        if(col.tag == "Player") {
+            print (gameObject.name + " in contact with " + col.GetComponent<Collider2D>().name);
+            Debug.Log("Scene loading: " + level);
+            level++;
+            LoadScene(2);
+        }
     } //END FUNCTION ONCOLLISIONENTER
 
     void OnCollisionExit2D (Collision2D col) {
